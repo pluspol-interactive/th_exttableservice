@@ -31,12 +31,10 @@ $EM_CONF[$_EXTKEY] = array(
 	'author_company' => 'n@work Internet Informations Systeme GmbH',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
-	'version' => '0.2.0',
+	'version' => '7.0.0-dev',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '3.5.0-0.0.0',
-			'php' => '3.0.0-0.0.0',
-			'cms' => '',
+			'typo3' => '7.6.0-7.6.99',
 		),
 		'conflicts' => array(
 		),

@@ -198,7 +198,7 @@ class tx_thexttableservice {
 	 *
 	 * @param	definitions		The definition of the tablefields as XML
 	 */
-	function th_extTableService($definitions = "") {
+	public function __construct($definitions = "") {
 		if ($definitions != "") {
 			$this->loadDefinitions($definitions);
 		}
